@@ -1,0 +1,65 @@
+body{
+    background-color: rgb(202, 223, 244);
+}
+
+.heading h1{
+    border: 2px solid black;
+    /* background-color: rgb(81, 167, 243); */
+    display: inline-block;
+    padding: 10px;
+    align-items: center;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 60px;
+    
+}
+
+.heading{
+    text-align: center;
+    padding: 50px;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.start, .stop{
+    padding: 20px 20px;
+}
+
+#startlogger, #stoplogger{
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.key{
+    justify-content: center;
+    display: flex;
+    padding: 20px;
+}
+
+#keyname{
+    background-color: orange;
+    width:400px;
+    height:50px;
+    text-align: center;
+    align-content: center;
+    /* border: 2px solid rgb(187, 188, 189); */
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+#keypress{
+    background-color: rgb(187, 188, 189);
+    width:400px;
+    height:50px;
+    text-align: center;
+    align-content: center;
+    /* border: 2px solid rgb(131, 131, 131); */
+    border-radius: 5px;
+    font-size: 20px;
+}
+
